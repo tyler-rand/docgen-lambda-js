@@ -1,0 +1,25 @@
+{
+  "name": "docgen-lambda-js",
+  "version": "1.0.0",
+  "description": "Generate a .docx document from a template and variable fields with JSON input data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Rand",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.41.0",
+    "docxtemplater": "^3.0.11",
+    "docxtemplater-image-module": "^3.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyler-rand/docgen-lambda-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tyler-rand/docgen-lambda-js/issues"
+  },
+  "homepage": "https://github.com/tyler-rand/docgen-lambda-js#readme"
+}

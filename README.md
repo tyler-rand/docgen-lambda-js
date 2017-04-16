@@ -24,7 +24,7 @@ module.exports = {
 
 ## Output
 
-From the given inputs, the function first fetches a template document and image from the user's S3 bucket.
+From the given inputs, the function first fetches a template document and image from S3.
 
 Then it creates a new .docx document using the template, image, and all dynamic fields specified in the `data` hash, and saves it in a different S3 folder.
 
